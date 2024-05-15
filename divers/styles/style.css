@@ -1,0 +1,112 @@
+/* SOMMAIRE CSS PAR ALICIA
+
+1.GENERAL
+
+2.HEADER
+
+3.MAIN
+    3.1. section hero
+    3.2. section services
+    3.3. section histoire
+    3.4. section realisation
+    3.5. section contact
+
+4.FOOTER*/ 
+
+/* 1. GENERAL */
+
+* {
+    margin:auto;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* 2. HEADER */
+
+header {
+    background-color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+
+nav {
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+nav li {
+    display: inline;
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color:#585858;
+    font-size: 1.2em;
+    font-family: 'montserrat', sans-serif;
+}
+
+nav a:hover {
+    color: #04BBFF;
+}
+
+.logo {
+    width:200px ;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    border: 1px #585858 solid;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+/* 3. MAIN 
+    3.1. section hero*/
+#hero {
+    height: 400px;
+    background-image: url('fleur2.jpg');
+    background-attachment: fixed;
+}
+
+#hero h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 6em;
+    padding-top: 120px;
+
+}
+
+h1, h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#hero h2 {
+    font-family: 'montserrat', sans-serif;
+}
+
+
+
